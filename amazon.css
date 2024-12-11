@@ -422,3 +422,19 @@ body{
     top:10px;
     left: 50px;
 }
+.msg{
+    display: none;
+}
+@media screen and (max-width: 760px) {
+    .amazon{
+        display: none;
+    }
+    .msg{
+        text-align: center;
+        margin-top: 20vh;
+        display: block;
+    }
+
+ 
+  }
+  
